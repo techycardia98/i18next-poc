@@ -1,0 +1,48 @@
+{
+  "version" : "1.2",
+  "profiles" : [ {
+    "id" : "95ad2fb7-13fb-47a0-ba1c-896242b77e3c",
+    "name" : "Vue",
+    "keyNamingPattern" : "SNAKE_CASE_PATTERN",
+    "sink" : {
+      "id" : "32d1227b-272f-4870-9ec5-6a775ef28e27",
+      "type" : "namespaced",
+      "translationsDirectory" : "$PROJECT_DIR$/public/locales",
+      "fileType" : "json",
+      "defaultLocale" : "en",
+      "namespaces" : [ "translation" ],
+      "outputFilenameTemplate" : "%locale%.json",
+      "nestingType" : "DISABLED",
+      "placeholderFormatterName" : "I18NEXT"
+    },
+    "sources" : [ {
+      "id" : "15f839a9-5254-4e31-9c78-750fd32f89a3",
+      "type" : "htmlvue",
+      "scopeName" : "vue",
+      "scopePattern" : "",
+      "defaultReplacementTemplate" : "$t('%key%', %map%)",
+      "attributeReplacementTemplate" : "",
+      "inlineTagsReplacementTemplate" : "",
+      "recognizedReplacementTemplates" : [ ],
+      "inlineTagNames" : [ ],
+      "translatableAttributeNames" : [ "title", "alt", "placeholder", "label", "aria-label" ],
+      "skipDefaultNamespace" : false
+    }, {
+      "id" : "b4594ce0-f6be-4aa6-9f9e-bb467e0d9b74",
+      "type" : "js",
+      "scopeName" : "Project Files",
+      "scopePattern" : "",
+      "defaultReplacementTemplate" : "i18next.$t('%key%', %map%)",
+      "recognizedReplacementTemplates" : [ ],
+      "skipDefaultNamespace" : false
+    } ]
+  } ],
+  "ignores" : {
+    "valuesInProject" : [ "use strict" ],
+    "valuesInFile" : { },
+    "filesInProject" : [ ],
+    "unignoredFunctionNames" : [ ],
+    "unignoredFunctionArguments" : { },
+    "ignoredArrayKeys" : [ "template", "date", "dateFormat", "el", "query", "type", "sql", "layout", "component", "condition", "name", "selector", "id", "class", "key", "middleware" ]
+  }
+}
