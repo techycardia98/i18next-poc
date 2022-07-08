@@ -8,7 +8,7 @@
       <option value="es">es</option>
     </select>
     <div style="margin-top: 12px">
-      <router-link to="/dashboard">Dashboard</router-link>
+      <router-link to="/dashboard">{{ $t('dashboard:dashboard') }}</router-link>
     </div>
   </div>
 </template>
