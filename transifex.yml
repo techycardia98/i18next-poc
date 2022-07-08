@@ -1,2 +1,8 @@
 filters:
-  - source_file: public/locales/en.json
+  - filter_type: file
+    file_format: KEYVALUEJSON
+    source_language: en
+    source_file: public/locales/en.json
+    translation_files_expression: 'public/locales/<lang>.json'
+settings:
+  pr_branch_name: transifex_translate
