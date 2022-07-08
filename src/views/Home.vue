@@ -7,8 +7,10 @@
       <option value="en">en</option>
       <option value="es">es</option>
     </select>
+    <div style="margin-top: 12px">
+      <router-link to="/dashboard">Dashboard</router-link>
+    </div>
   </div>
-
 </template>
 
 <script>

@@ -10,17 +10,17 @@
       "translationsDirectory" : "$PROJECT_DIR$/public/locales",
       "fileType" : "json",
       "defaultLocale" : "en",
-      "namespaces" : [ "translation" ],
-      "outputFilenameTemplate" : "%locale%.json",
+      "namespaces" : [ "common", "dashboard" ],
+      "outputFilenameTemplate" : "%locale%/%namespace%.json",
       "nestingType" : "DISABLED",
       "placeholderFormatterName" : "I18NEXT"
     },
     "sources" : [ {
       "id" : "15f839a9-5254-4e31-9c78-750fd32f89a3",
       "type" : "htmlvue",
-      "scopeName" : "vue",
+      "scopeName" : "Project Files",
       "scopePattern" : "",
-      "defaultReplacementTemplate" : "$t('%key%', %map%)",
+      "defaultReplacementTemplate" : "$t('%namespace%:%key%', %map%)",
       "attributeReplacementTemplate" : "",
       "inlineTagsReplacementTemplate" : "",
       "recognizedReplacementTemplates" : [ ],
@@ -32,7 +32,7 @@
       "type" : "js",
       "scopeName" : "Project Files",
       "scopePattern" : "",
-      "defaultReplacementTemplate" : "i18next.$t('%key%', %map%)",
+      "defaultReplacementTemplate" : "i18next.$t('%namespace%:%key%', %map%)",
       "recognizedReplacementTemplates" : [ ],
       "skipDefaultNamespace" : false
     } ]
