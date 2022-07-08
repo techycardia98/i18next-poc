@@ -1,2 +1,2 @@
 filters:
-  source_file: public/locales/en.json
+  - source_file: public/locales/en.json
