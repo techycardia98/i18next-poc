@@ -50,7 +50,7 @@ i18next
       },
       detection: {
         // order and from where user language should be detected
-        order: ['preference', 'querystring', 'localStorage'],
+        order: ['querystring', 'localStorage'],
         // keys or params to lookup language from
         lookupQuerystring: 'lang',
         // cache user language on
