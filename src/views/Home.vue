@@ -3,6 +3,10 @@
     <h1>Interpolation: {{ $t('welcome') }}</h1>
     <h1>Computed: {{ welcome }}</h1>
     <h1>With filter: {{ $t('welcome') | lowercase }}</h1>
+    <a :href="$t('documentation:test_proper_link')">Proper link</a> <br>
+    <a :href="$t('documentation:test_link')">Improper link</a>
+    <h1>{{ $t('documentation:test_proper_link') }}</h1>
+    <h1>{{ $t('documentation:test_link') }}</h1>
     <select @change="onlanguagechange">
       <option value="en">en</option>
       <option value="es">es</option>
