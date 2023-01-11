@@ -1,0 +1,12 @@
+{
+  "test_proper_link": "https://www.google.com",
+  "test_proper_link1": "https://www.facebook.com",
+  "test_proper_link2": "https://www.whatsapp.com",
+  "test_proper_link3": "https://wikipedia.org",
+  "test_proper_link4": "https://yandex.ru",
+  "test_link1": "www.google.com",
+  "test_link2": "www.facebook.com",
+  "test_link3": "www.whatsapp.com",
+  "test_link4": "wikipedia.org",
+  "test_link5": "yandex.ru"
+}
